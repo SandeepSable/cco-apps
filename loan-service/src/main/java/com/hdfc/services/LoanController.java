@@ -4,12 +4,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class StudentRestController {
+public class LoanController {
  
 	
-	@GetMapping("/student")
+	@GetMapping("/loan")
 	public String getStudentInfo()
 	{
-       return  "Sandeep Sable";		
+       return  "this is test loan service. its up and running";		
 	}
 }
